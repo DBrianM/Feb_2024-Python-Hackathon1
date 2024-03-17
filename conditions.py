@@ -4,6 +4,18 @@
 
 
 # Create a Python program that:
+def main():
+    # Prompt user to enter age
+    age = int(input("Please enter your age: "))
+
+    # Checking the age if >18 or <18
+    if age >= 18:
+        print("You are eligible to vote.")
+    else:
+        print("You are not eligible to vote.")
+
+if __name__ == "__main__":
+    main()
 
 
 # - Prompts a user to enter their age.
